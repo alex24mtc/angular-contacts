@@ -16,6 +16,8 @@ interface Contact {
 export class ContactListComponent implements OnInit {
   contacts: Object[];
   newContact: Contact;
+  
+  
 
   constructor() { }
 
