@@ -18,7 +18,8 @@
 
 
 
-<button (click)="addContact">Submit New Contact</button>
+<button (click)="addContact()">Submit New Contact</button>
+<button (click)="deleteContact()">Delete Contact</button>
 
 
 <h2>Contact List</h2>
@@ -29,5 +30,6 @@
         {{individualcontact.email}},
         {{individualcontact.phoneNumber}},
         <img src="{{individualcontact.image}}">
+        
     </li>
   </ul>
